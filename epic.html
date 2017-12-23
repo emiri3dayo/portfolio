@@ -1,0 +1,187 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Epic Software Design</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-sm sticky-top navbar-dark">
+      <a class="navbar-brand" href="index.html">Emiri Chan's Portfolio</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"/>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <a class="btn ml-auto" href="https://www.linkedin.com/in/emiri-aoki" target="_blank" role="button">
+          <img src="linkedinlogo.png" height="38px" width="38px" onmouseover="hoverli(this);" onmouseout="unhoverli(this);"/>
+        </a>
+        <a class="btn" href="https://github.com/emiri3dayo" target="_blank" role="button">
+          <img src="githubwhite.png" height="38px" width="38px" onmouseover="hovergh(this);" onmouseout="unhovergh(this);"/>
+        </a>
+        <a class="btn" href="mailto:ea327@cornell.edu" role="button" style="padding-right: 25px;">
+          <img src="envelopewhite.png" height="19px" width="38px" onmouseover="hoverem(this);" onmouseout="unhoverem(this);"/>
+        </a>
+        <a class="btn btn-outline-light" href="https://www.dropbox.com/s/wfc3d9fhn5dg5qd/Emiri%20Chan%20Resume.pdf?dl=1" role="button">Resume</a>
+      </div>
+    </nav>
+
+    <div class="container-fluid">
+      <div class="row justify-content-center" style="padding-bottom: 10px;">
+        <h5> Interaction Design</h5>
+
+      </div>
+    <div class="container-fluid">
+      <div class="row justify-content-center" style="padding-top: 10px;" >
+        <h1>Epic</h1>
+      </div>
+    </div>
+    <div class="container-fluid">
+      <div class="row justify-content-center">
+
+        <div class="col-sm-4">
+            <img src="epic/heart.png" class="img-fluid"/>
+        </div>
+        <div class="col-sm-4">
+          <br>
+          <br>
+            <ul style="font-size: 16pt;">
+              <li>Due to a confusing workflow by multiple teams, heart attack care wasn't occurring quickly enough </li>
+              <li>Interviewed clinicians, administrators, stakeholders on their current workflows for door to balloon time </li>
+              <li>Developed, tested, and implemented a novel workflow that included making fixes to software and workflows so that clinicians start patient care faster</li>
+              <li>Now, hospital is looking at reducing heart attack care times from 90 minutes to 60 minutes.</li>
+            </ul>
+
+        </div>
+      </div>
+
+      <div class="container-fluid">
+        <div class="row justify-content-center">
+          <div class="col-sm-8">
+            <h3> Door-to-Balloon Time </h3>
+            <br>
+            <p1>Door to balloon time is a standard metric that measures how long it takes a patient to receive interventional heart care after the patient enters the hospital if they are having a heart attack. It is a standard metric, and hospitals need to keep the time under 90 minutes to reduce mortality rates. Some hospitals may “chest pain” coordinators who will time the workflow with a stopwatch from start to finish to analyze inefficiencies.</p1>
+            <br>
+            <p1>  I started as a product management associate. As I developed more of the product, I became the product management lead. I am responsible for determining the direction of product development, conducting user experience research, developing the design of the interfaces, and ensuring that both the UI/UX and RandD are hitting research and development milestones. </p1>
+            <br>
+            <br>
+            <h3>Problem</h3>
+            <br>
+            <p1>At one hospital, their door to balloon times were well below the 90 minute threshold, however they still believed that they had room for improvement. They had many different workflows depending on the situation, and they were concerned that it often led to confusion among staff. </p1>
+            <br>
+            <br>
+            <h3>My Role</h3>
+            <br>
+
+            <p1>While working as an implementation consultant for Epic, I worked with different hospitals to install cardiology software. Specifically for this study, I interviewed hospital administrators and staff about their current state workflows, and determined how that would fit into Epic’s software. As most hospitals are transitioning from software that doesn’t integrate these areas, many hospitals see this as a good opportunity to re-examine current state to reduce inefficiency. My work as an implementation consultant was an excellent foray into the design thinking process. </p1>
+
+            <br>
+            <br>
+
+            <img src="epic/workflow.png" class="img-fluid"/>
+            <br>
+            <br>
+
+            <br>
+            <h3>Discovery </h3>
+            <br>
+            <p1>During initial sessions at the hospital, I gathered the stakeholders together and discussed the chest pain workflow. In addition to the managers of the cardiology, registration, revenue, and emergency room departments, we invited nurses and patient care staff members to discuss their current state.</p1>
+            <br>
+            <br>
+            <img src="epic/stakeholders.png" class="img-fluid"/>
+            <br>
+            <br>
+            <p1>We asked questions such as:
+            <br>
+            <br>
+            <ol>
+              <li>Where do the patients originate? Are there differences in the workflow based on where they start?</li>
+              <li>What is the “standard” workflow, and are there any deviations?</li>
+              <li>What are the pain points of the workflow? Are there any bottlenecks?</li>
+              <li>Who is ultimately responsible for each handoff of the patient?</li>
+            </ol>
+            <br>
+            <p1>Once we interviewed and discussed current state workflows with mroe than 20 stakeholders, it was apparent that there were many deviations of the workflow, depending on whether it was during regular hours or after hours, whether the patient originated from the ambulance, emergency room, or if they were already admitted to the hospital. We compiled the answers and noticed that there were four distinct workflows:</p1>
+            <br>
+            <br>
+            <img src="epic/original.png" class="img-fluid"/>
+            <br>
+            <br>
+            <br>
+            <h3>Unpacking the Issues</h3>
+            <br>
+            <p1>For patients coming from the emergency room, or for inpatients, the workflows were fairly simple. The cardiology staff would be able to begin patient care quickly because they did not have to worry about registration. The main issues were summarized in four points:</p1>
+            <br>
+            <ol>
+              <li>Confusion about who was responsible for each step, because workflows changed due to situation.</li>
+              <li>Bottlenecks occurred prior to receiving care, because registration often took a long time.</li>
+              <li>If patients weren’t registered in the system prior to coming to the department, the cardiology staff would fix the issue, leading to delay in patient care.</li>
+              <li>When registration wasn’t done properly, cardiology staff weren’t able to pull up the patient’s chart. It also led to a complicated reconciliation process.</li>
+            </ol>
+            <br>
+            <br>
+            <h3>Fix Goals</h3>
+            <br>
+            <p1> Some parts of the workflow, such as patient transportation couldn’t be changed. For example, the hospital layout was such that ambulances could not come closer to the cath lab. However, it was clear that with some cooperation with each department, we could streamline the workflow.</p1>
+            <br>
+            <ol>
+              <li>Maximize the cardiology staff’s focus on patient care.</li>
+              <li>Streamline the workflow and standardize whenever possible.</li>
+              <li>Make the handoffs between each team smoother.</li>
+              <li>Reduce reconciling of the patient’s chart as much as possible.</li>
+            </ol>
+            <h3>Solution</h3>
+            <br>
+            <p1> Working with the hospital analyst team and internal Epic team, I focused on leveraging existing Epic functionality while determining end user changes. with coordinated a meeting to proposed a few changes to streamline the workflow.</p1>
+            <br>
+            <ol>
+              <li> Call center would perform registration for the patient. Cardiology staff would not have to enter in information about the patient once the patient got to the cardiology lab, and they could focus on registration.</li>
+              <li>For these heart attack patients, call center staff would use “express” registration. Separate from regular registration, they would enter only necessary information for billing and patient care. We worked with the registration staff to determine what fields were necessary and built them in the system.</li>
+              <li>Give the cardiology staff access to “express” registration. While we confirmed that the call center staff would be responsible for entering this information, we wanted to proposed giving the express registration to the cardiology staff as a fail safe measure.</li>
+            </ol>
+            <img src="epic/revised.png" class="img-fluid"/>
+            <br>
+            <br>
+            <h3>Impact</h3>
+            <br>
+            <p1>We received approval from the departments, and during the course of the project, we created a proof of concept prototype and tested the workflow. When the hospital implemented the system, initially it took a coordinated effort of training end users, constant communication among the different departments, and careful metric observations to monitor improvements to the workflow. Their KPI metrics improved during the first week of implementing the system, and daily group meetings helped the departments identify where there were bottlenecks and quickly address them. Currently, the hospital is striving to lower door to balloon times to under 60 minutes.</p1>
+            <p1>In terms of personal growth, this project was one of the reasons why I became interested in UX design. Epic's software had the flexibility to change the configurations and activities to fit the needs of this particular hospital. We adapted their workflows to work well with the software. But more can be done to fit the needs of the user. </p1>
+
+          </div>
+        </div>
+        <a class="btn btn-dark" id="next-button" title="Next Case Study" role="button" href="biovirtua.html">Read next: Biovirtua</a>
+      </div>
+
+    <!-- Optional JavaScript -->
+    <script>
+      function hoverli(element) {
+        element.setAttribute('src', 'linkedindark.png');
+      }
+      function unhoverli(element) {
+        element.setAttribute('src', 'linkedinlogo.png');
+      }
+      function hovergh(element) {
+        element.setAttribute('src', 'github.png');
+      }
+      function unhovergh(element) {
+        element.setAttribute('src', 'githubwhite.png');
+      }
+      function hoverem(element) {
+        element.setAttribute('src', 'envelopeblack.png');
+      }
+      function unhoverem(element) {
+        element.setAttribute('src', 'envelopewhite.png');
+      }
+    </script>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+  </body>
+
+
+</html>

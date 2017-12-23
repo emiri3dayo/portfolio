@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Emiri Chan's Portfolio</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+  </head>
+  <style>
+    body {
+      overflow: hidden;
+    }
+    html,body{height:100%;}
+  </style>
+  <body>
+
+    <nav class="navbar navbar-expand-sm sticky-top navbar-dark">
+      <a class="navbar-brand" href="index.html">Emiri Chan's Portfolio</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"/>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <a class="btn ml-auto" href="https://www.linkedin.com/in/emiri-aoki" target="_blank" role="button">
+          <img src="linkedinlogo.png" height="38px" width="38px" onmouseover="hoverli(this);" onmouseout="unhoverli(this);"/>
+        </a>
+        <a class="btn" href="https://github.com/emiri3dayo" target="_blank" role="button">
+          <img src="githubwhite.png" height="38px" width="38px" onmouseover="hovergh(this);" onmouseout="unhovergh(this);"/>
+        </a>
+        <a class="btn" href="mailto:ea327@cornell.edu" role="button" style="padding-right: 25px;">
+          <img src="envelopewhite.png" height="19px" width="38px" onmouseover="hoverem(this);" onmouseout="unhoverem(this);"/>
+        </a>
+        <a class="btn btn-outline-light" href="https://www.dropbox.com/s/wfc3d9fhn5dg5qd/Emiri%20Chan%20Resume.pdf?dl=1" role="button">Resume</a>
+      </div>
+    </nav>
+    <iframe src="foodspire.html" style="height: 100%; border: none; width: 100%;">
+    </iframe>
+    <div>
+      <a class="btn btn-dark" id="next-button" title="Next Case Study" role="button" href="hobbies.html">Read next: Hobbies</a>
+    </div>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+
+    <!-- Optional JavaScript -->
+    <script>
+      function hoverli(element) {
+        element.setAttribute('src', 'linkedindark.png');
+      }
+      function unhoverli(element) {
+        element.setAttribute('src', 'linkedinlogo.png');
+      }
+      function hovergh(element) {
+        element.setAttribute('src', 'github.png');
+      }
+      function unhovergh(element) {
+        element.setAttribute('src', 'githubwhite.png');
+      }
+      function hoverem(element) {
+        element.setAttribute('src', 'envelopeblack.png');
+      }
+      function unhoverem(element) {
+        element.setAttribute('src', 'envelopewhite.png');
+      }
+
+      $(document).ready(function(){
+
+      	// hide #back-top first
+      	$("#top-button").hide();
+
+      	// fade in #back-top
+      	$(function () {
+      		$(window).scroll(function () {
+      			if ($(this).scrollTop() > 100) {
+      				$('#top-button').fadeIn();
+      			} else {
+      				$('#top-button').fadeOut();
+      			}
+      		});
+
+      		// scroll body to 0px on click
+      		$('#top-button').click(function () {
+      			$('body,html').animate({
+      				scrollTop: 0
+      			}, 800);
+      			return false;
+      		});
+      	});
+
+      });
+
+    </script>
+  </body>
+</html>
