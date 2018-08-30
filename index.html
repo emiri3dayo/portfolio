@@ -11,181 +11,197 @@
     <link rel="stylesheet" href="index.css">
   </head>
   <body>
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <nav class="navbar navbar-expand-sm sticky-top">
+            <a class="navbar-brand" href="#">Emiri Chan</a>
+            <button class="navbar-toggler navbar-light" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"/>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                  <a class="nav-link mx-2" href="#">Work</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link mx-2" href="https://www.dropbox.com/s/wfc3d9fhn5dg5qd/Emiri%20Chan%20Resume.pdf?dl=1">Resume</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
 
-    <nav class="navbar navbar-expand-sm sticky-top navbar-dark">
-      <a class="navbar-brand" href="#">Emiri Chan's Portfolio</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"/>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <a class="btn ml-auto" href="https://www.linkedin.com/in/emiri-aoki" target="_blank" role="button">
-          <img src="linkedinlogo.png" height="38px" width="38px" onmouseover="hoverli(this);" onmouseout="unhoverli(this);"/>
-        </a>
-        <a class="btn" href="https://github.com/emiri3dayo" target="_blank" role="button">
-          <img src="githubwhite.png" height="38px" width="38px" onmouseover="hovergh(this);" onmouseout="unhovergh(this);"/>
-        </a>
-        <a class="btn" href="mailto:ea327@cornell.edu" role="button" style="padding-right: 25px;">
-          <img src="envelopewhite.png" height="19px" width="38px" onmouseover="hoverem(this);" onmouseout="unhoverem(this);"/>
-        </a>
-        <a class="btn btn-outline-light" href="https://www.dropbox.com/s/wfc3d9fhn5dg5qd/Emiri%20Chan%20Resume.pdf?dl=1" role="button">Resume</a>
-      </div>
-    </nav>
+          <div class="container">
+            <div class="row top-buffer bottom-buffer">
+              <div class="col-5 text-right">
+                <h1>UX/UI Designer</h1>
+              </div>
+              <div class="col-7">
+                <h2 class="italic">
+                  <span>Based in New York City</span><br>
+                  <span>Mobile, web, and software designer</span><br>
+                  <span>Dislikes olives</span>
+                </h2>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-5">
+                <a href="#">
+                  <img class="img-fluid img-case-study" src="images/Therapists_main.png">
+                </a>
+              </div>
+              <div class="col-5 case-study-preview">
+                <h3>Reviews</h3>
+                <span>I designed an experience for Spa directors to review therapists that come to their spa.</span>
+              </div>
+              <div class="col-2"></div>
+            </div>
+            <div class="row justify-content-center" style="background-color: #3066BE; color:#FFFFFF;">
+              <div class="col-sm-3">
+                <img src="pedalpalphone.png" class="img-fluid"/>
+              </div>
+              <div class="col-sm-4">
+                <br>
+                <br>
+                <h7>Mobile App Design</h7>
+                <h1>PedalPal</h1>
+                <br>
+                <h6> Working with fellow designers, I designed a mobile app to fit the needs of the biking community in Ithaca. We started the design process from interviews to high fidelity prototypes.</h6>
+                <br>
+                <h6>Sketch, Balsamiq, InVision</h6>
+                <br>
+                <br>
+                <a class="btn btn-info btn-lg" href="pedalpal.html" role="button">Read More</a>
+              </div>
+            </div>
+            <div class="row justify-content-center" >
+              <div class="col-sm-4">
+                <img src="D2B.png" class="img-fluid"/>
+              </div>
+              <div class="col-sm-4">
+                <br>
+                <h7>Interaction Design</h7>
+                <h1>Epic</h1>
+                <br>
+                <h6>When I was an implementation consultant at Epic, I worked with a hospital to rethink how users interacted with software and each other to improve patient care. </h6>
+                <br>
+                <br>
+                <a class="btn btn-info btn-lg" href="epic.html" role="button">Read More</a>
+              </div>
+            </div>
+            <div class="row justify-content-center" style="padding-top: 100px; padding-bottom:100px; background-color: #3E8FB2; color:#FFFFFF;">
+              <div class="col-sm-6">
+                <img src="bvdashboard.png" class="img-fluid"/>
+              </div>
+              <div class="col-sm-4">
+                <br>
+                <h7>Software Design</h7>
+                <h1>BioVirtua</h1>
+                <br>
+                <h6>While working for a healthcare startup, I created a high fidelity prototype of a movement analysis dashboard for physicians.</h6>
+                <br>
+                <h6>Sketch, InVision</h6>
+                <br>
+                <br>
+                <a class="btn btn-info btn-lg" href="biovirtua.html" role="button">Read More</a>
+              </div>
+            </div>
+            <div class="row justify-content-center" >
+              <div class="col-sm-5">
+                <img src="datavis.png" class="img-fluid"/>
+              </div>
+              <div class="col-sm-4">
+                <br>
+                <br>
+                <h7>Data Visualization</h7>
+                <h1>Foodspire</h1>
+                <br>
+                <h6> This visualization shows the relationship between ingredients in Epicurious recipes, and suggests them based on your preferences.</h6>
+                <br>
+                <br>
+                <br>
+                <h6>Javascript, D3 library</h6>
+                <br>
+                <br>
+                <a class="btn btn-info btn-lg" href="foodspire_wrapper.html" role="button">Read More</a>
+              </div>
+            </div>
+            <div class="row justify-content-center" style="background-color: #991020; color:#FFFFFF;">
+              <div class="col-sm-5">
+                <img src="skateboard.png" class="img-fluid"/>
+              </div>
+              <div class="col-sm-4">
 
-    <div class="container-fluid">
-      <div class="row justify-content-center">
-        <div class="col-sm-3">
-          <img src="profilepic.png" class="img-fluid"/>
-        </div>
-        <div class="col-sm-5">
-            <h1>Emiri Aoki Chan</h1>
-            <h4>UX Designer <h4>
-            <br>
-            <h6>I am a UX designer with a unique perspective on creating lasting designs. When I started as an implementation consultant in healthcare IT, I worked extensively with users to improve their interactions with healthcare software. I discovered my true passion to improve software design.</h6>
-        </div>
-      </div>
-      <div class="row justify-content-center" style="background-color: #3066BE; color:#FFFFFF;">
-        <div class="col-sm-3">
-          <img src="pedalpalphone.png" class="img-fluid"/>
-        </div>
-        <div class="col-sm-4">
-          <br>
-          <br>
-          <h7>Mobile App Design</h7>
-          <h1>PedalPal</h1>
-          <br>
-          <h6> Working with fellow designers, I designed a mobile app to fit the needs of the biking community in Ithaca. We started the design process from interviews to high fidelity prototypes.</h6>
-          <br>
-          <h6>Sketch, Balsamiq, InVision</h6>
-          <br>
-          <br>
-          <a class="btn btn-info btn-lg" href="pedalpal.html" role="button">Read More</a>
-        </div>
-      </div>
-      <div class="row justify-content-center" >
-        <div class="col-sm-4">
-          <img src="D2B.png" class="img-fluid"/>
-        </div>
-        <div class="col-sm-4">
-          <br>
-          <h7>Interaction Design</h7>
-          <h1>Epic</h1>
-          <br>
-          <h6>When I was an implementation consultant at Epic, I worked with a hospital to rethink how users interacted with software and each other to improve patient care. </h6>
-          <br>
-          <br>
-          <a class="btn btn-info btn-lg" href="epic.html" role="button">Read More</a>
-        </div>
-      </div>
-      <div class="row justify-content-center" style="padding-top: 100px; padding-bottom:100px; background-color: #3E8FB2; color:#FFFFFF;">
-        <div class="col-sm-6">
-          <img src="bvdashboard.png" class="img-fluid"/>
-        </div>
-        <div class="col-sm-4">
-          <br>
-          <h7>Software Design</h7>
-          <h1>BioVirtua</h1>
-          <br>
-          <h6>While working for a healthcare startup, I created a high fidelity prototype of a movement analysis dashboard for physicians.</h6>
-          <br>
-          <h6>Sketch, InVision</h6>
-          <br>
-          <br>
-          <a class="btn btn-info btn-lg" href="biovirtua.html" role="button">Read More</a>
-        </div>
-      </div>
-      <div class="row justify-content-center" >
-        <div class="col-sm-5">
-          <img src="datavis.png" class="img-fluid"/>
-        </div>
-        <div class="col-sm-4">
-          <br>
-          <br>
-          <h7>Data Visualization</h7>
-          <h1>Foodspire</h1>
-          <br>
-          <h6> This visualization shows the relationship between ingredients in Epicurious recipes, and suggests them based on your preferences.</h6>
-          <br>
-          <br>
-          <br>
-          <h6>Javascript, D3 library</h6>
-          <br>
-          <br>
-          <a class="btn btn-info btn-lg" href="foodspire_wrapper.html" role="button">Read More</a>
-        </div>
-      </div>
-      <div class="row justify-content-center" style="background-color: #991020; color:#FFFFFF;">
-        <div class="col-sm-5">
-          <img src="skateboard.png" class="img-fluid"/>
-        </div>
-        <div class="col-sm-4">
+                <h7>Maker's lab</h7>
+                <h1>Hobbies and projects</h1>
+                <br>
+                <h6>Here are a few of my passion projects when I'm not doing UX.</h6>
+                <br>
+                <h6>Illustrator, Arduino, Circuits, Laser cutting, 3D printing, Sewing, Fusion 360</h6>
+                <br>
+                <br>
+                <a class="btn btn-info btn-lg" href="hobbies.html" role="button">Read More</a>
+              </div>
+            </div>
+          </div>
+          <button class="btn btn-dark" id="top-button" title="Go to top">Top</button>
 
-          <h7>Maker's lab</h7>
-          <h1>Hobbies and projects</h1>
-          <br>
-          <h6>Here are a few of my passion projects when I'm not doing UX.</h6>
-          <br>
-          <h6>Illustrator, Arduino, Circuits, Laser cutting, 3D printing, Sewing, Fusion 360</h6>
-          <br>
-          <br>
-          <a class="btn btn-info btn-lg" href="hobbies.html" role="button">Read More</a>
+
+          <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+          <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+          <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+
+          <!-- Optional JavaScript -->
+          <script>
+            function hoverli(element) {
+              element.setAttribute('src', 'linkedindark.png');
+            }
+            function unhoverli(element) {
+              element.setAttribute('src', 'linkedinlogo.png');
+            }
+            function hovergh(element) {
+              element.setAttribute('src', 'github.png');
+            }
+            function unhovergh(element) {
+              element.setAttribute('src', 'githubwhite.png');
+            }
+            function hoverem(element) {
+              element.setAttribute('src', 'envelopeblack.png');
+            }
+            function unhoverem(element) {
+              element.setAttribute('src', 'envelopewhite.png');
+            }
+
+            $(document).ready(function(){
+
+            	// hide #back-top first
+            	$("#top-button").hide();
+
+            	// fade in #back-top
+            	$(function () {
+            		$(window).scroll(function () {
+            			if ($(this).scrollTop() > 100) {
+            				$('#top-button').fadeIn();
+            			} else {
+            				$('#top-button').fadeOut();
+            			}
+            		});
+
+            		// scroll body to 0px on click
+            		$('#top-button').click(function () {
+            			$('body,html').animate({
+            				scrollTop: 0
+            			}, 800);
+            			return false;
+            		});
+            	});
+
+            });
+
+          </script>
         </div>
       </div>
     </div>
-    <button class="btn btn-dark" id="top-button" title="Go to top">Top</button>
-
-
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
-
-    <!-- Optional JavaScript -->
-    <script>
-      function hoverli(element) {
-        element.setAttribute('src', 'linkedindark.png');
-      }
-      function unhoverli(element) {
-        element.setAttribute('src', 'linkedinlogo.png');
-      }
-      function hovergh(element) {
-        element.setAttribute('src', 'github.png');
-      }
-      function unhovergh(element) {
-        element.setAttribute('src', 'githubwhite.png');
-      }
-      function hoverem(element) {
-        element.setAttribute('src', 'envelopeblack.png');
-      }
-      function unhoverem(element) {
-        element.setAttribute('src', 'envelopewhite.png');
-      }
-
-      $(document).ready(function(){
-
-      	// hide #back-top first
-      	$("#top-button").hide();
-
-      	// fade in #back-top
-      	$(function () {
-      		$(window).scroll(function () {
-      			if ($(this).scrollTop() > 100) {
-      				$('#top-button').fadeIn();
-      			} else {
-      				$('#top-button').fadeOut();
-      			}
-      		});
-
-      		// scroll body to 0px on click
-      		$('#top-button').click(function () {
-      			$('body,html').animate({
-      				scrollTop: 0
-      			}, 800);
-      			return false;
-      		});
-      	});
-
-      });
-
-    </script>
   </body>
 </html>
